@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #fff;
+    background-color: #333;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+  
+nav a.active {
+    background-color: #043eaa;
+}
+
+nav a.ooo {
+    color: grey;
+}
