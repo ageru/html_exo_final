@@ -30,4 +30,6 @@ nav a.active {
 
 nav a.ooo {
     color: grey;
+    pointer-events: none;
+    /* cursor: not-allowed; */
 }
