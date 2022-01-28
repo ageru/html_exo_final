@@ -26,8 +26,54 @@
         </ul>
     </nav>
     
- 
+    <main>
+        <p>Vous souhaitez être recontacté ? N'hésitez pas à me laisser vos coordonnées et quelques détails sur vous !</p>
 
+        <form>
+            <p>
+                <input type="text" id="nom" placeholder="Nom">
+                <input type="text" name="" id="prenom" placeholder="Prénom">
+            </p>
+    
+            <p>
+                <label for="dob">Date de naissance : </label>
+                <input type="date" id="dob">
+            </p>
+
+            <p>Sexe : 
+                <label for="man">👨</label>
+                <input type="radio" name="gender" id="man" value="0">
+                <label for="woman">👩</label>
+                <input type="radio" name="gender" id="woman" value="0">
+                <label for="lgbtq">🌈</label>
+                <input type="radio" name="gender" id="lgbtq" value="2">
+            </p>
+
+            <dp>
+                <label for="nlemail">Email : </label>
+                <input type="email" name="" id="nlemail" placeholder="moi@chezmoi.fr">
+            </p>
+            
+            <p>
+                <label for="">Je suis intéressé par... </label>
+                <select name="" id="" value="Je suis intéressé par...">
+                    <option value="" disabled>--Choisir un sujet--</option>
+                    <option value="Escalade">l'escalade</option>
+                    <option value="Onewheel">les Onewheel/eSkate</option>
+                    <option value="Yoga Iyengar">le Yoga Iyengar</option>
+                    <option value="Tout">ces 3 loisirs</option>
+                    <option value="corps">ton corps de rêve !</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="ticlaw">J'accepte que vous fassiez usage des données communiquées via ce formulaire : </label>
+                <input type="checkbox" name="" id="ticlaw" unchecked>
+            </p>
+
+            <button id="sendform">Envoyer</button>
+        </form>
+    </main>
 
 </body>
 
