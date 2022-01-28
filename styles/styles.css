@@ -2,6 +2,7 @@ h1 {
     text-align: center;
 }
 
+/* Styles destinés au menu */
 nav ul {
     display: flex;
     flex-direction: row;
@@ -33,4 +34,17 @@ nav a.ooo {
     color: grey;
     pointer-events: none;
     /* cursor: not-allowed; */
+}
+/* Fin des styles destinés au menu */
+
+/* Styles destinés à la rotation d'image */
+div#imgrotate {
+    max-width: 640px;
+    min-width: 120px;
+}
+
+div#imgrotate img {
+    max-width: 300px;
+    min-width: 50px;
+    border: 1px solid #000;
 }
